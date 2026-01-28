@@ -1,0 +1,221 @@
+@layer utilities {
+  .font-noto-sans-jp {
+    font-family: var(--font-noto-sans-jp), sans-serif;
+  }
+
+  .font-noto-serif-jp {
+    font-family: var(--font-noto-serif-jp), serif;
+  }
+
+  /* Typography Guide Styles */
+  .heading-1 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: calc(48px * 0.05);
+
+    @media only screen and (max-width: 767px) {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 29px;
+      letter-spacing: calc(24px * 0.05);
+    }
+  }
+
+  .heading-2 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 40px;
+    font-weight: 700;
+    /* Bold */
+    line-height: 1.2;
+  }
+
+  .heading-2-36 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: calc(36px * 0.05);
+    line-height: 43px;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: calc(20px * 0.05);
+      line-height: 24px;
+    }
+  }
+
+  .heading-3 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 32px;
+    font-weight: 600;
+    /* Semibold */
+    line-height: 1.3;
+  }
+
+  .heading-3-30 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: calc(18px * 0.05);
+      line-height: 22px;
+    }
+  }
+
+  .heading-4 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 24px;
+    font-weight: 600;
+    /* Semibold */
+    line-height: 1.3;
+  }
+
+  .heading-5 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .heading-5-20 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: calc(18px * 0.05);
+      line-height: 24px;
+    }
+  }
+
+  .heading-3-30-20 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: calc(30px * 0);
+    @media only screen and (max-width: 767px) {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: calc(18px * 0);
+      line-height: 24px;
+    }
+  }
+
+  .text-1 {
+    font-family: var(--font-noto-sans-jp), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.5px;
+  }
+
+  .text-2 {
+    font-family: var(--font-noto-sans-jp), sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+
+  .text-3 {
+    font-family: var(--font-noto-sans-jp), sans-serif;
+    font-size: 10.5px;
+    font-weight: 400;
+    letter-spacing: calc(10.5px * 0);
+  }
+
+  .truncate-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .truncate-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .html-content {
+    input[type="image"] {
+      max-width: 100% !important;
+      width: auto !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    img {
+      max-width: 100% !important;
+      width: auto !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+
+    video {
+      max-width: 100% !important;
+      width: auto !important;
+      height: auto !important;
+    }
+
+    iframe {
+      max-width: 100% !important;
+
+      @media only screen and (max-width: 767px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    table {
+      max-width: 100% !important;
+    }
+  }
+  .text-1-10 {
+    font-family: var(--font-noto-sans-jp), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.5px;
+    @media only screen and (max-width: 767px) {
+      font-size: 10.2px;
+      font-weight: 400;
+      line-height: 16.3px;
+      letter-spacing: calc(10.2px * 0);
+    }
+  }
+  .heading-5-20-16 {
+    font-family: var(--font-noto-serif-jp), serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+    @media only screen and (max-width: 767px) {
+      font-family: var(--font-noto-sans-jp), sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25.5px;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+/* Spacing Utility Classes */
+.spacing-xs {
+    margin: 4px;
+}
+
+.spacing-sm {
+    margin: 8px;
+}
+
+.spacing-md {
+    margin: 16px;
+}
+
+.spacing-lg {
+    margin: 24px;
+}
+
+.spacing-xl {
+    margin: 32px;
+}
+
+.spacing-2xl {
+    margin: 48px;
+}
+
+.spacing-3xl {
+    margin: 64px;
+}
+
+.spacing-4xl {
+    margin: 120px;
+}
+
+.p-spacing-xs {
+    padding: 4px;
+}
+
+.p-spacing-sm {
+    padding: 8px;
+}
+
+.p-spacing-md {
+    padding: 16px;
+}
+
+.p-spacing-lg {
+    padding: 24px;
+}
+
+.p-spacing-xl {
+    padding: 32px;
+}
+
+.p-spacing-2xl {
+    padding: 48px;
+}
+
+.p-spacing-3xl {
+    padding: 64px;
+}
+
+.p-spacing-4xl {
+    padding: 120px;
+}
+
+.gap-spacing-xs {
+    gap: 4px;
+}
+
+.gap-spacing-sm {
+    gap: 8px;
+}
+
+.gap-spacing-md {
+    gap: 16px;
+}
+
+.gap-spacing-lg {
+    gap: 24px;
+}
+
+.gap-spacing-xl {
+    gap: 32px;
+}
+
+.gap-spacing-2xl {
+    gap: 48px;
+}
+
+.gap-spacing-3xl {
+    gap: 64px;
+}
+
+.gap-spacing-4xl {
+    gap: 120px;
+}

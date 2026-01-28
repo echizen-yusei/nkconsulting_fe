@@ -1,0 +1,29 @@
+name: Ci lint
+
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  lint:
+    name: Run linters
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 22.17.0
+      - name: Install Node.js dependencies
+        run: yarn install
+      - name: Lint
+        run: yarn lint
+      - name: build
+        run: yarn build

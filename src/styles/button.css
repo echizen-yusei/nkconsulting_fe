@@ -1,0 +1,85 @@
+.button-secondary {
+  transition: all 0.3s ease-in-out;
+}
+
+.button-outline {
+  transition: all 0.3s ease-in-out;
+}
+
+.button-secondary-disabled {
+  background-color: var(--color-red-lighter) !important;
+  border-color: var(--color-red-light) !important;
+}
+
+.button-outline-disabled {
+  background-color: var(--color-cream) !important;
+  border-color: var(--color-gray-light) !important;
+}
+
+.button-secondary:hover {
+  background-color: var(--color-red-hover) !important;
+  border-color: var(--color-red-hover) !important;
+}
+
+.button-secondary:active {
+  background-color: var(--color-red-hover) !important;
+  border-color: var(--color-red-hover) !important;
+}
+
+.button-primary {
+  transition: all 0.3s ease-in-out;
+
+  @media only screen and (max-width: 767px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.button-primary-disabled {
+  background-color: var(--color-cream) !important;
+  border-color: var(--color-cream) !important;
+  color: var(--color-gray-light) !important;
+}
+
+.button-primary:hover {
+  background-color: var(--color-black) !important;
+  border-color: var(--color-black) !important;
+  color: var(--color-cream) !important;
+}
+
+.button-primary:active {
+  background-color: var(--color-black) !important;
+  border-color: var(--color-black) !important;
+  color: var(--color-cream) !important;
+}
+
+.button-outline:active {
+  background-color: var(--color-black) !important;
+  border-color: var(--color-black) !important;
+  color: var(--color-cream) !important;
+
+  @media only screen and (max-width: 767px) {
+    border-color: transparent !important;
+  }
+}
+
+.button-outline:hover {
+  background-color: var(--color-black) !important;
+  border-color: var(--color-black) !important;
+  color: var(--color-cream) !important;
+
+  @media only screen and (max-width: 767px) {
+    border-color: transparent !important;
+  }
+}
+
+.border-outline-button-none-sp {
+  border-color: #1a1a1a !important;
+  @media only screen and (max-width: 767px) {
+    border-color: transparent !important;
+  }
+}
+
+.border-outline-button {
+  border-color: #1a1a1a !important;
+}

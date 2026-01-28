@@ -1,0 +1,1146 @@
+{
+  "components": {
+    "requiredLabel": "必須",
+    "commonError": {
+      "systemError": "システムエラーです。再度お試しいただくか、何度も発生する場合はお問い合わせ窓口までご連絡ください。"
+    },
+    "select": {
+      "loading": "読み込み中...",
+      "noResults": "結果が見つかりません。",
+      "loadingMore": "読み込み中...",
+      "search": "検索"
+    },
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ"
+    },
+    "nodata": "表示するデータがありません。",
+    "loading": "読み込み中"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "contact": "お問い合わせ",
+    "login": "ログイン/会員登録",
+    "register": "ログイン/会員登録",
+    "registerMember": "新規会員登録",
+    "resetPassword": "パスワード再設定",
+    "settingPassword": "パスワード再設定",
+    "loungeReservation": "ラウンジ予約",
+    "loungeReservationCancel": "ラウンジ予約キャンセル",
+    "loungeReservationComplete": "ご予約完了",
+    "membershipInformation": "会員情報",
+    "membershipInformationCancel": "退会申請",
+    "payment": "年会費決済方法選択",
+    "paymentConfirm": "入力内容確認",
+    "planChange": "プラン変更"
+  },
+  "HomePage": {
+    "title": "N<highlight>K</highlight> Executive Member’s Club",
+    "titleSp": "N<highlight>K</highlight> Executive\nMember’s Club",
+    "description": "経営者による経営者のための福利厚生メンバーズクラブ",
+    "descriptionSp": "経営者による経営者のための\n福利厚生メンバーズクラブ",
+    "benefits": {
+      "title": "会員<highlight>限</highlight>定特典",
+      "titleSp": "の\nメンバー限定特典",
+      "item1": {
+        "title": "会員専用ラウンジの使用",
+        "description": "横浜にあるNK Clubが経営する会員専用ラウンジで\nラグジュアリーなお酒を楽しみながら\n経営者同士の交流もできます。",
+        "descriptionSp": "横浜にあるNK Clubが経営する会員専用ラウンジでラグジュアリーなお酒を楽しみながら経営者同士の交流もできます。"
+      },
+      "item2": {
+        "title": "会員専用サービスの提供",
+        "description": "会員様だけが受けられるコンサルや\n割引サービスをご利用いただけます。",
+        "descriptionSp": "会員様だけが受けられるコンサルや割引サービスをご利用いただけます。"
+      },
+      "item3": {
+        "title": "異業種交流",
+        "description": "経営者同士で新たなコネクションを作れる\n異業者交流会にご参加いただけます。",
+        "descriptionSp": "経営者同士で新たなコネクションを作れる異業者交流会にご参加いただけます。"
+      }
+    },
+    "membershipRegistrationProcess": {
+      "title": "会<highlight>員</highlight>登録の流れ",
+      "item1": {
+        "title": "①申し込み",
+        "description": "「ログイン/会員登録」より\nお申し込みください。"
+      },
+      "item2": {
+        "title": "②審査",
+        "description": "申し込み受けつけ後、1~2営業日内で\n結果をご連絡いたします。",
+        "descriptionSp": "申し込み受けつけ後、1~2営業日内で結果をご連絡いたします。"
+      },
+      "item3": {
+        "title": "③会費のお支払い",
+        "description": "現在は銀行振込のみでのご対応と\nなっております。",
+        "descriptionSp": "現在は銀行振込のみでのご対応となっております。"
+      },
+      "item4": {
+        "title": "④登録完了",
+        "description": "お振込み確認後、会員限定ページへ\nアクセスいただけます。"
+      }
+    },
+    "membershipFees": {
+      "title": "<highlight>会</highlight>費",
+      "description": "会員のみが受けられるサービスを提供します。",
+      "price": "¥120,000/年",
+      "payment": "お支払いは審査通過後になります"
+    },
+    "clubAnnualFee": {
+      "title": "Club年<highlight>会</highlight>費",
+      "description": "※お支払いは審査通過後となります",
+      "plans": {
+        "plan1": {
+          "title": "経営者プラン",
+          "price": "¥120,000/年",
+          "subPrice": "¥132,000/年 (税込)",
+          "list": ["全コンサルサービス", "ラウンジのご入店権", "異業種交流会への参加", "各種会員限定特典"],
+          "borderBottomColor": "border-gradient-gold"
+        },
+        "plan2": {
+          "title": "特別個人プラン",
+          "price": "¥60,000/年",
+          "subPrice": "¥66,000/年 (税込)",
+          "list": ["コンサルサービス一部", "ラウンジのご入店権", "異業種交流会への参加", "各種会員限定特典"],
+          "borderBottomColor": "border-white-custom"
+        },
+        "plan3": {
+          "title": "法人プラン",
+          "price": "¥30,000/年",
+          "subPrice": "¥33,000/年 (税込)",
+          "list": ["各種イベントへの参加"],
+          "borderBottomColor": "border-red-custom"
+        }
+      }
+    },
+    "visitWebsite": {
+      "title": "Azure <highlight>F</highlight>orest 横濱",
+      "description": "NK Consultingが経営するイタリアンレストラン。",
+      "descriptionSp": "NK Consultingが経営する\nイタリアンレストラン。",
+      "button": "レストランのウェブサイトへ"
+    }
+  },
+  "ContactCompletePage": {
+    "title": "お問い合わせありがとうございました",
+    "titleSp": "お問い合わせ\nありがとうございました",
+    "description": "この度はNK Consultingに関するお問い合わせをいただき誠にありがとうございます。\n1営業日以内を目安に、担当者よりご連絡いたします。"
+  },
+  "Header": {
+    "login": "ログイン/会員登録",
+    "contact": "お問い合わせ",
+    "logout": "ログアウト",
+    "userName": "ユーザー名：{name}",
+    "userId": "ユーザーID：{id}"
+  },
+  "Footer": {
+    "companyName": "株式会社 NK Consulting",
+    "postalCode": "〒232-0056",
+    "address": "神奈川県横浜市南区通町3丁目61-1",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "member": "利用規約",
+    "specificBusinessTransactions": "特定商取引法に基づく表記"
+  },
+  "Validation": {
+    "required": "{field}を入力してください。",
+    "requiredSelect": "{field}を選択してください。",
+    "email": "有効なメールアドレスを入力してください。",
+    "password": "パスワードが正しいフォーマットではありません。",
+    "minLength": "{field}は{length}文字以上で入力してください。",
+    "maxLength": "{field}は{length}文字以内で入力してください。",
+    "phone": "有効な電話番号を入力してください。",
+    "confirmPassword": "新しいパスワード（確認）が一致しません。",
+    "invalidField": "有効な{field}を入力してください。",
+    "yearOldRange": "年齢は0〜150の数値で入力してください。",
+    "requiredCheckbox": "{field}を選択してください。",
+    "requiredAtLeastOneReason": "少なくとも1つの理由を選択してください。",
+    "lengthEqual": "{field}は{length}文字で入力してください。",
+    "specificReason": "具体的な理由をご記入ください。"
+  },
+  "ContactPage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "お<highlight>問</highlight>い合わせ",
+    "form_contact": {
+      "name": {
+        "label": "お名前",
+        "placeholder": "お名前（フルネーム）"
+      },
+      "companyName": {
+        "label": "会社名",
+        "placeholder": "例) 株式会社　NK Consulting"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "例) example@example.com"
+      },
+      "phone": {
+        "label": "電話番号",
+        "placeholder": "例) 000-0000-0000"
+      },
+      "message": {
+        "label": "お問い合わせ内容",
+        "placeholder": "できるだけ詳しくご入力ください。"
+      },
+      "submit": "送信",
+      "pending": "送信中...",
+      "confirm": "送信前に内容を確認しました",
+      "error": "システムエラーです。再度お試しいただくか、何度も発生する場合はお問い合わせ窓口までご連絡ください。"
+    },
+    "required": "必須"
+  },
+  "registerMemberPage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "新<highlight>規</highlight>会員登録",
+    "form": {
+      "note": "以下の情報を入力して登録を行ってください。",
+      "basicInformation": {
+        "title": "基本情報",
+        "name": {
+          "label": "お名前",
+          "fullName": "お名前（フルネーム）",
+          "furigana": "お名前（ふりがな）"
+        },
+        "company": {
+          "label": "会社名",
+          "placeholder": "例) 株式会社●●"
+        },
+        "birthday": {
+          "label": "生年月日",
+          "month": "月",
+          "day": "日",
+          "year": "年"
+        },
+        "yearOld": {
+          "label": "年齢",
+          "placeholder": ""
+        },
+        "email": {
+          "label": "メールアドレス",
+          "placeholder": "例) example@example.com",
+          "instruction": "正しい内容を入力してください。\n半角英数字、特殊記号-@_+が使用可能です。"
+        },
+        "phone": {
+          "label": "電話番号",
+          "placeholder": "000-0000-0000"
+        }
+      },
+      "membershipPurpose": {
+        "title": "会員プラン",
+        "membershipPlan": "会員プランの選択",
+        "membershipPlanSp": "会員プラン",
+        "instruction": "当クラブに入会する目的",
+        "placeholderSp": "コネクションを増やしたいなど",
+        "placeholder": "例)経営者とのコネクションを増やしたい　など",
+        "required": "会員プランを選択してください"
+      },
+      "educationWorkHistory": {
+        "title": "学歴",
+        "elementarySchool": {
+          "label": "小学校",
+          "placeholder": "例)○○県立○○小学校",
+          "graduationDate": "卒業年月"
+        },
+        "juniorHighSchool": {
+          "label": "中学校",
+          "placeholder": "例)○○県立○○中学校",
+          "graduationDate": "卒業年月"
+        },
+        "highSchool": {
+          "label": "高校",
+          "placeholder": "例)○○県立○○高校",
+          "graduationDate": "卒業年月",
+          "none": "なし"
+        },
+        "university": {
+          "label": "大学または専門学校",
+          "placeholder": "例)○○大学",
+          "graduationDate": "卒業年月",
+          "none": "なし"
+        },
+        "currentWorkplace": {
+          "label": "現在の勤務先",
+          "postalCode": "郵便番号",
+          "postalCodeInvalid": "郵便番号が正しくありません。",
+          "address": {
+            "label": "住所",
+            "placeholder": "例)神奈川県横浜市南区11-11 横浜ビル3F 101"
+          }
+        },
+        "position": {
+          "label": "役職",
+          "placeholder": "例)代表取締役"
+        }
+      },
+      "workHistory": {
+        "title": "職歴",
+        "instruction": "新しいものから順にご入力ください。役職が変わった場合も別でご入力ください。",
+        "required": "職歴は最低1件入力してください。",
+        "addWorkHistory": "職歴を追加する+",
+        "addWorkHistoryMobile": "職歴を追加+",
+        "itemTitle": "職歴",
+        "delete": "削除",
+        "period": {
+          "label": "期間",
+          "yearJoined": {
+            "label": "入社年",
+            "placeholder": "年"
+          },
+          "monthJoined": {
+            "label": "入社月",
+            "placeholder": "月"
+          },
+          "yearLefted": {
+            "label": "退社年",
+            "placeholder": "年"
+          },
+          "monthLefted": {
+            "label": "退社月",
+            "placeholder": "月"
+          },
+          "placeholder": "例)2020年4月~2024年3月",
+          "inService": "在籍中",
+          "year": "年",
+          "month": "月"
+        },
+        "companyName": {
+          "label": "会社名",
+          "placeholder": "例)株式会社○○"
+        },
+        "position": {
+          "label": "役職",
+          "placeholder": "例)代表取締役"
+        }
+      },
+      "profileInformation": {
+        "title": "プロフィール情報",
+        "hobbies": {
+          "label": "趣味・特技(3つ)",
+          "label1": "趣味・特技",
+          "label2": "趣味・特技",
+          "label3": "趣味・特技",
+          "placeholder": ""
+        },
+        "allergies": {
+          "label": "アレルギーや持病",
+          "yes": "あり",
+          "no": "なし",
+          "content": "内容",
+          "contentPlaceholder": "例）甲殻類アレルギーなど",
+          "contentPlaceholderSp": "週3箱など"
+        },
+        "smoking": {
+          "label": "喫煙",
+          "yes": "する",
+          "no": "しない",
+          "frequency": "頻度",
+          "frequencyPlaceholder": "例）週３箱など",
+          "frequencyPlaceholderSp": "日5本など"
+        },
+        "drinking": {
+          "label": "飲酒",
+          "yes": "する",
+          "no": "しない",
+          "frequency": "頻度",
+          "frequencyPlaceholder": "例）週３など",
+          "frequencyPlaceholderSp": "週3回など"
+        }
+      },
+      "privacy": "プライバシーポリシーに同意する",
+      "membershipTerms": "会員規約",
+      "backToLogin": "ログイン画面に戻る",
+      "submit": "年会費の決済情報入力へ進む"
+    }
+  },
+  "registerCompletePage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "お申込みを受け付けました",
+    "description": "この度はNK Consultingへのお申込み誠にありがとうございます。\n1～2営業日後に審査結果をご連絡いたします。",
+    "descriptionSp": "この度はNK Executive Member’s Clubへの\nお申込み誠にありがとうございます。\n1～2営業日後に審査結果をご連絡いたします。",
+    "button": "ログイン画面に戻る"
+  },
+  "resetPassword": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "パ<highlight>ス</highlight>ワード再設定申請",
+    "form": {
+      "label": {
+        "email": "メールアドレス"
+      },
+      "placeholder": {
+        "email": "例) example@example.com"
+      },
+      "submit": "再設定リンクを送信",
+      "login": "ログイン画面に戻る",
+      "explain1": "ご登録のメールアドレスを入力してください。\nパスワード再設定用のリンクをお送りします。",
+      "explain2": "正しい内容を入力してください。半角英数字、特殊記号-@_+が使用可能です。",
+      "explain2sp": "正しい内容を入力してください。\n半角英数字、特殊記号-@_+が使用可能です。",
+      "explain3": "メールアドレスまたはユーザーID"
+    }
+  },
+  "resetPasswordCompletePage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "パスワードの再設定を受け付けました",
+    "explain": "入力されたメールアドレス宛に、パスワード再設定用リンクを送信しました。\n数分経ってもメールが届かない場合は、迷惑メールフォルダをご確認ください。",
+    "explainSp": "入力されたメールアドレス宛に、パスワード再設定用リンクを送信しました。数分経ってもメールが届かない場合は、迷惑メールフォルダをご確認ください。",
+    "button": "ログイン画面に戻る"
+  },
+  "login": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "loginTitle": "<highlight>ロ</highlight>グイン/会員登録",
+    "login": "ログイン",
+    "userFirstLogin": "はじめてご利用の方",
+    "label": {
+      "email": "メールアドレスまたはユーザーID",
+      "password": "パスワード"
+    },
+    "explain": {
+      "email": "正しい内容を入力してください。半角英数字、特殊記号-@_+が使用可能です。",
+      "password": "半角英数組合せ8~20文字で入力してください。"
+    },
+    "placeholder": {
+      "email": "例) example@example.com",
+      "emailMobile": "例)example@example.com or P000000",
+      "password": "パスワード"
+    },
+    "forgotPassword": "パスワードをお忘れの方はこちら",
+    "membershipTerms": "会員規約",
+    "legalNotice": "特定商取引法に基づく表記",
+    "privacyPolicy": "プライバシーポリシー",
+    "register": "新規会員登録はこちら",
+    "error": "ログイン用の認証情報が正しくありません。再度お試しください。"
+  },
+  "userPage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "topContent": {
+      "welcome": "ようこそ　{name}様",
+      "membershipRank": "{rank}様の会員ランク",
+      "standard": "スタンダード",
+      "eventInformation": "イベント情報",
+      "membershipContent": "会員限定コンテンツ",
+      "paymentComplete": "決済完了",
+      "additionalFeePayment": "追加料金決済",
+      "paymentConfirmation": "決済内容確認",
+      "membershipInformation": "会員情報",
+      "membershipInformationCancel": "退会申請"
+    },
+    "tabs": {
+      "membershipContent": "会員限定コンテンツ",
+      "loungeReservation": {
+        "title": "ラウンジ予約",
+        "subTitle": "現在のご予約内容",
+        "cancel": "ラウンジ予約キャンセル"
+      },
+      "eventInformation": "イベント情報",
+      "membershipInformation": "会員情報",
+      "messages": "メッセージ"
+    }
+  },
+  "loungeReservation": {
+    "system": {
+      "title": "システム",
+      "charge": "チャージ",
+      "ice": "氷代",
+      "water": "水 / 炭酸水　2本",
+      "companion": "同伴",
+      "bottle": "ボトル料金",
+      "bottlePrice": "ウイスキー：7,000円～\nシャンパン：15,000円～\n焼酎：5,000円～\n日本酒：12,000円～"
+    },
+    "cancelBooking": {
+      "title": "ラウンジ予約キャンセル",
+      "subTitle": "現在のご予約内容",
+      "message": "こちらの予約をキャンセルいたします。よろしいですか？",
+      "messageSp": "こちらの予約をキャンセルいたします。\nよろしいですか？",
+      "reservedDate": "予約日",
+      "reservedTime": "予約時間",
+      "guestCount": "ご来店人数",
+      "guestCountSuffix": "人",
+      "cancelConfirm": "キャンセルを確定",
+      "goBack": "予約画面へ戻る",
+      "successMessage": "キャンセルが完了しました。",
+      "status": {
+        "pending": "保留中",
+        "approved": "承認済み",
+        "rejected": "却下",
+        "cancelled": "キャンセル済み",
+        "completed": "完了",
+        "expired": "期限切れ"
+      },
+      "statusLabel": "ステータス"
+    },
+    "loungeLieChill": {
+      "title": "Lounge LeiChill",
+      "description": "レトロな雰囲気でお酒やカラオケをお楽しみいただけるラウンジでございます。\n所在地：〒232-0056 横浜市南区通町3丁目61-2 1F (Azure Forest 横浜の下階)\n営業時間：20:00~24:00\n席数：カウンター5席/テーブル4席",
+      "descriptionSp": "レトロな雰囲気でお酒やカラオケをお楽しみいただけるラウンジでございます。\n所在地：〒232-0056\n横浜市南区通町3丁目61-2 1F \n(Azure Forest 横浜の下階)\n営業時間：20:00~24:00\n席数：カウンター5席/テーブル4席"
+    },
+    "menu": {
+      "title": "メニュー"
+    },
+    "reservation": {
+      "title": "予約する",
+      "description": "ご予約は電話もしくはLINEにて承っております。\n受付時間：13:00~24:00",
+      "phoneReservation": {
+        "title": "電話からご予約",
+        "phone": "045-315-2078",
+        "phoneLink": "tel:0453152078"
+      },
+      "lineReservation": {
+        "title": "LINEからご予約",
+        "line": "ID：t0m30chin"
+      }
+    },
+    "reservationComplete": {
+      "title": "ご予約申請完了",
+      "titleSp": "ラウンジ予約",
+      "message1": "以下の内容でご予約申請を承りました。",
+      "message2": "申請内容を確認後、１営業日以内にご連絡いたしますので少々お待ちください。",
+      "reservedDate": "予約日",
+      "reservedTime": "予約時間",
+      "guestCount": "ご来店人数",
+      "guestCountSuffix": "人",
+      "button": "予約画面へ戻る",
+      "cancelConfirm": "キャンセルを確定",
+      "status": {
+        "pending": "保留中",
+        "approved": "承認済み",
+        "rejected": "却下",
+        "cancelled": "キャンセル済み",
+        "completed": "完了",
+        "expired": "期限切れ"
+      },
+      "statusLabel": "ステータス"
+    },
+    "currentReservation": {
+      "title": "現在のご予約状況",
+      "message1": "こちらの予約をキャンセルいたします。よろしいですか？",
+      "reservedDate": "予約日",
+      "reservedTime": "予約時間",
+      "guestCount": "ご来店人数",
+      "guestCountSuffix": "人",
+      "cancelConfirm": "この予約をキャンセル",
+      "button": "予約画面へ戻る",
+      "noReservation": "現在予約はありません",
+      "status": {
+        "pending": "保留中",
+        "approved": "承認済み",
+        "rejected": "却下",
+        "cancelled": "キャンセル済み",
+        "completed": "完了",
+        "expired": "期限切れ"
+      },
+      "statusLabel": "ステータス"
+    },
+    "form": {
+      "title": "予約する",
+      "note": "当日の昼12時以降のご予約は電話にて承っております。\nTEL：080-5918-6753",
+      "date": {
+        "label": "ご来店日",
+        "placeholder": "月日を選択",
+        "required": "{label}選択してください"
+      },
+      "time": {
+        "label": "ご来店時間",
+        "placeholder": "時間を選択",
+        "required": "{label}選択してください"
+      },
+      "guestCount": {
+        "label": "ご来店人数",
+        "placeholder": "人数を選択",
+        "required": "{label}選択してください"
+      },
+      "confirmMessage": "入力内容にお間違いがないか確認の上ご予約ください。",
+      "confirmMessageSp": "入力内容にお間違いがないか\nご確認の上ご予約ください。",
+      "submit": "予約申請を送る",
+      "successMessage": "ご予約が完了しました。",
+      "timeLimitExceeded": "当日の予約受付時間を過ぎているため予約できません。翌日以降の日付でご予約いただくか、担当者までお電話にて直接ご連絡ください。"
+    },
+    "subTab": {
+      "currentReservation": "現在のご予約状況",
+      "reservation": "予約する"
+    }
+  },
+  "settingPasswordPage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "パ<highlight>ス</highlight>ワード再設定フォーム",
+    "titleSp": "新しいパスワードを\nご入力ください",
+    "form": {
+      "note": "新しいパスワードをご入力ください。",
+      "noteSp": "半角英数組合せ8~20文字で入力してください。",
+      "password": {
+        "label": "新しいパスワード",
+        "placeholder": "新しいパスワード"
+      },
+      "confirmPassword": {
+        "label": "新しいパスワード（確認）",
+        "placeholder": "新しいパスワード（確認）"
+      },
+      "submit": "パスワードを変更"
+    },
+    "message": {
+      "urlExpired": "パスワード設定リンクの有効期限が切れています。",
+      "urlExpiredSp": "パスワード設定リンクの\n有効期限が切れています"
+    },
+    "backToLogin": "ログイン画面に戻る"
+  },
+  "settingPasswordCompletePage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "パスワードを変更しました",
+    "description": "ログインページに戻ってログインしてください。",
+    "descriptionSp": "ログインページに戻ってログインしてください",
+    "button": "ログイン画面に戻る"
+  },
+  "privacy": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "プライバシーポリシー",
+    "description": "NK Executive Member's Club（以下「当クラブ」といいます）は、会員の皆様の個人情報の重要性を認識し、個人情報保護法その他関連法令を遵守するとともに、以下のプライバシーポリシー（以下「本ポリシー」といいます）に従い、適切な取り扱いと保護に努めます。\n第1条（個人情報の定義）\n個人情報とは、氏名、住所、電話番号、メールアドレス、生年月日その他の記述等により特定の個人を識別できる情報をいいます。\n第2条（個人情報の取得）\n当クラブは、以下の情報を取得する場合があります。\n\n氏名\n会社名・役職\n住所\n電話番号\nメールアドレス\n生年月日\n事業内容\nその他会員登録に必要な情報\n\n第3条（個人情報の利用目的）\n当クラブは、取得した個人情報を以下の目的で利用いたします。\n\n会員登録および会員管理\n各種イベント・セミナーのご案内\n会員向けサービスの提供\nお問い合わせへの対応\n会費の請求および入金管理\n会員間の交流促進のための会員名簿の提供\n当クラブのサービス向上のための分析\nその他当クラブの運営に必要な業務\n\n第4条（個人情報の第三者提供）\n当クラブは、以下の場合を除き、会員の同意なく個人情報を第三者に提供することはありません。\n\n法令に基づく場合\n人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難であるとき\n公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって、本人の同意を得ることが困難であるとき\n国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき\n会員間の交流促進のため、会員名簿として他の会員に提供する場合（事前に同意を得た範囲内）\n\n第5条（個人情報の管理）\n当クラブは、個人情報の正確性を保ち、これを安全に管理いたします。個人情報への不正アクセス、紛失、破損、改ざん、漏洩などを防止するため、必要かつ適切な安全管理措置を講じます。\n\n第6条（個人情報の開示・訂正・削除）\n会員ご本人から個人情報の開示、訂正、削除等のご請求があった場合は、本人確認を行った上で、合理的な期間内に対応いたします。\n\n第7条（プライバシーポリシーの変更）\n当クラブは、必要に応じて本ポリシーの内容を変更することがあります。変更後のプライバシーポリシーは、当クラブのウェブサイトに掲載した時点から効力を生じるものとします。\n\n第8条（お問い合わせ窓口）\n個人情報の取り扱いに関するお問い合わせは、以下までご連絡ください。\nNK Executive Member's Club\n担当：株式会社NK Conslting 広報\nEmail: nk-executive-member's-club@noriken.info\n\n制定日：2025/11/18\n最終改定日：2025/11/18"
+  },
+  "membershipTerms": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "会員規約",
+    "description": "第１条（目的）\n　NK Executive Member’s Club（以下、「当クラブ」という。）は、福利厚生施設・サービスの提供を通じ、経営者を中心とする会員相互の交流を促進し、地域社会の持続的な発展に貢献することを目的とする。\n\n第２条（運営）\n　当クラブの運営は、株式会社NK CONSULTING（以下、｢当社｣という。）が行うものとする。\n\n第３条（会員）\n１　当クラブの目的に賛同し、本規約を承認の上、入会申込みを行い、当社がこれを承認し、入会金受領確認が完了した者を会員とする。\n２　当社は、以下のいずれかに該当する場合、入会希望者の入会を拒否することができる。\n　(1) 反社会的勢力（暴力団、暴力団員、暴力団準構成員、暴力団関係企業、総会屋、その他これらに準ずる者をいう。以下同じ。）に関与する者、又はそのおそれがあると認められる者。\n　(2) 破産手続、民事再生手続、会社更生手続若しくは特別清算手続の申立をした場合、又は申立を受けた場合。\n　(3) 公序良俗に反する行為を行った場合。\n （4）その他当社が入会を不適当と認める場合。\n\n第4条（会員区分）\n１　法人会員とは、当クラブに入会申込みを行い、当社がこれを承認した法人をいう。\n２　個人会員とは、当クラブに入会申込みを行い、当社がこれを承認した個人をいう。\n３　特別会員とは、前２項の会員のうち、当クラブの目的に賛同し、その活動において特に顕著な貢献がある、又は当社が特別に認めたものをいう。\n\n第５条（有効期間）\n１　会員資格の有効期間は、入会日から１年間とする。\n２　会員は、前項の有効期間満了日又は当社が別途指定する日までに更新手続を行うことにより、前項の有効期間を更新することができる。\n３　前項により会員資格の更新がされた会員は、翌年以降の会員規約その他の当クラブの規約を承諾したものとみなす。\n\n第６条（提供サービス）\n１　当クラブは、会員に対し、以下のサービスを提供する。\n　⑴  各種交流会・勉強会への参加の機会の提供\n　⑵  提携施設・提携サービスの優待利用\n　⑶  会員間のマッチング支援\n２　当クラブは、前項に定めるサービスについて、その内容を必要に応じて追加し、又は変更することができる。\n３　当クラブは、特別会員に対し、第１項に定めるサービスについて、その内容を優遇して提供することがある。\n\n第７条（会費）\n１　会員は、当社が定める年会費について、当社が指定する期日までに支払う。\n２　納入された年会費は、いかなる理由があっても返還しない。\n\n第８条（退会）\n　会員は、当クラブを退会する場合には、退会月の前月の１５日までに、当クラブ所定の退会届の届出を行わなければならない。\n\n第９条（会員資格の抹消）\n　会員が各号のいずれかに該当した場合には、当社は、直ちに当該会員との契約を解除し、当該会員の会員資格を抹消させることができる。\n⑴     監督官庁から営業停止等の処分を受けた場合\n⑵      当社が指定する期日までに会費を支払わなかった場合\n⑶      破産手続、民事再生手続、会社更生手続若しくは特別清算手続の申立てをした場合、又は申立を受けた場合\n⑷      不適切な利用等により、当クラブの正常な運営を妨げ、又は当クラブの信用を著しく損なうおそれのある行為をした場合\n⑸      反社会的勢力と関与し、又はそのおそれがあることが判明した場合\n⑹      その他本規約に定める条項に違反した場合\n\n第１０条（譲渡等の禁止）\n　会員は、本規約に基づく会員としての地位を、第三者に対して、貸与、譲渡、売買、使用許諾、質権の設定その他の担保に供する等の行為をすることはできない。\n\n第１１条（損害賠償）\n　当社は、会員に対し、本規約に違反する行為により当社又は当クラブに生じた一切の損害（弁護士費用、逸失利益を含む間接事実、特別損害を含むがこれらに限られない。）の賠償を求めることができる。\n\n第１２条（禁止行為）\n　会員は、当クラブの利用に際して、次の各号に掲げる行為を行ってはならない。\n⑴ 当クラブ又は他の会員に損害を与える行為。\n⑵ 公序良俗に反する行為又はそのおそれのある行為\n⑶ 犯罪行為若しくは犯罪行為に結びつく行為又はそのおそれのある行為。\n⑷ 選挙運動又はこれに類する行為。\n⑸ 性風俗、宗教、政治に関する活動。\n⑹ 法令に違反し、又はそのおそれのある行為。\n\n第１３条（規約の改訂）\n　当社は、本規約の全部又は一部をいつでも改訂することができるものとし、改訂した内容は、電子メールやホームページ等において、会員に告知する。\n\n第１４条（サービス提供の制限）\n１　天災、行政指導、社会情勢の変化、経済状況の著しい変動その他やむを得ない事由が生じた場合には、当クラブは会員に対するサービスの提供を制限することがある。\n２　前項の規定により会員に損害が生じた場合であっても、当社は一切の責任を負わないものとする。\n\n第１５条（反社会的勢力の排除）\n１　会員は、自らが暴力団、暴力団員、暴力団員でなくなった時から 5 年を経過しない者、暴力団準構成員、暴力団関係企業、総会屋等、社会運動等標ぼうゴロ又は特殊知能暴力集団等、その他これらに準ずる者（以下「暴力団員等」といいます。）に該当しないこと、及び次の各号のいずれにも該当しないことを表明し、かつ将来にわたっても該当しないことを保証する。\n(1) 暴力団員等が経営を支配していると認められる関係を有すること。\n(2) 暴力団員等が経営に実質的に関与していると認められる関係を有すること。\n(3) 自己、自社若しくは第三者の不正の利益を図る目的又は第三者に損害を加える目的をもってする等、不当に暴力団員等を利用していると認められる関係を有すること。\n(4) 暴力団員等に対して資金等を提供し、又は便宜を供与する等の関与をしていると認められる関係を有すること。\n(5) 役員又は経営に実質的に関与している者が暴力団員等と社会的に非難されるべき関係を有すること。\n２　会員は、自ら又は第三者を利用して次の各号のいずれかに該当する行為を行わないことを確約する。\n(1) 暴力的な要求行為\n(2) 法的な責任を超えた不当な要求行為\n(3) 取引に関して、脅迫的な言動をし、又は暴力を用いる行為\n(4) 風説を流布し、偽計を用い又は威力を用いて相手方の信用を毀損し、又は相手方の業務を妨害する行為\n(5) その他前各号に準ずる行為\n\n第１６条（免責）\n１　当社及び当クラブは、自らの責に帰すべき事由による場合を除いては、当クラブの利用に関して会員に生じた一切の損害について責任を負わないものとする。\n２　当クラブの利用に関して、会員が他の会員その他の第三者との間で紛争を生じた場合には、当該会員は自己の責任において解決するものし、当社及び当クラブは一切関与しないものとする。\n\n第１７条（個人情報の取扱い）\n１　当社及び当クラブは、氏名、住所、電話番号、性別、生年月日、電子メールその他の会員の個人情報について、当クラブのサービスの情報提供等に利用する目的で、収集することができる。\n２　当クラブにおける会員の個人情報は、当社が定める個人情報保護方針に従い、当社が適切に管理・利用する。\n\n第１８条（準拠法）\n　本規約の成立、効力、履行及び解釈は、日本法を適用する。\n\n第１９条（専属的合意管轄）\n　当クラブの利用に関する一切の紛争については、横浜地方裁判所を専属的合意管轄裁判所とする。\n\n第２０条（協議事項）\n　本規約に定めのない事項又は本規約の各条項の解釈に関し疑義が生じた場合、会員及び当社は、誠実に協議の上、信義誠実の原則に従って解決する。\n\n以上"
+  },
+  "eventInformation": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "開催予定のイベント",
+    "capacity": "定員{capacity}人",
+    "capacityDetail": "定員 {capacity}名",
+    "capacityDetailSp": "定員",
+    "participants": "参加予定人数  {participants}人",
+    "participantsDetail": "参加予定人数  {participants}人",
+    "participantsDetailSp": "参加予定人数",
+    "capacitySuffix": "名",
+    "fee": "参加費：{fee}",
+    "feeDetail": "参加費",
+    "detail": "詳細へ",
+    "eventInformationDetail": "イベント詳細",
+    "noData": "表示するデータがありません。",
+    "joinText": "参加する",
+    "fullSlotText": "定員に達しました",
+    "joinedText": "参加申し込みを受け付けました",
+    "responseMessage": {
+      "joinEventSuccess": "イベントへの参加申し込みが完了しました。"
+    }
+  },
+  "notification": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "新着メッセージ",
+    "detail": "メッセージ",
+    "noData": "表示するデータがありません。"
+  },
+  "membership": {
+    "title": "会員限定ページ",
+    "description": "会員限定ページ",
+    "tabs": {
+      "memberOnlyServices": "コンサルサービス",
+      "memberOnlyBenefits": "会員限定特典"
+    }
+  },
+  "memberOnlyServicesDetail": {
+    "title": "会員限定サービス",
+    "consultingServices": "各種コンサルティングサービス",
+    "memberOnlyBenefits": "会員限定特典",
+    "serviceDetails": "サービス詳細",
+    "contact": "お問い合わせ",
+    "defaultContent": "経営コンサルに関する内容",
+    "contactDescription": "ご相談内容やご質問をできる限り詳しくご記入ください。\nお問い合わせ内容確認後、1~2営業日以内にご返信いたします。",
+    "contactSuccess": "お問い合わせの送信が完了しました。"
+  },
+  "memberOnlyBenefitsDetail": {
+    "title": "会員限定特典",
+    "consultingServices": "各種コンサルティングサービス",
+    "memberOnlyBenefits": "会員限定特典",
+    "serviceDetails": "サービス詳細",
+    "contact": "お問い合わせ",
+    "defaultContent": "経営コンサルに関する内容",
+    "contactDescription": "ご注文やご相談はこちらからお受けしております。できる限り詳細にご記入ください。\nお問い合わせ内容確認後、1~2営業日以内にご返信いたします。",
+    "contactSuccess": "お問い合わせの送信が完了しました。",
+    "loadMore": "もっと見る..."
+  },
+  "inquiryForm": {
+    "content": {
+      "label": "内容"
+    },
+    "send": "送信"
+  },
+  "profilePage": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "新<highlight>規</highlight>会員登録",
+    "form": {
+      "note": "以下の情報を入力して登録を行ってください。",
+      "basicInformation": {
+        "title": "基本情報",
+        "nextDueOn": "次回更新日",
+        "name": {
+          "label": "お名前",
+          "fullName": "お名前（フルネーム）",
+          "furigana": "お名前（ふりがな）"
+        },
+        "company": {
+          "label": "会社名",
+          "placeholder": "例) 株式会社●●"
+        },
+        "birthday": {
+          "label": "生年月日",
+          "month": "月",
+          "day": "日",
+          "year": "年"
+        },
+        "yearOld": {
+          "label": "年齢",
+          "placeholder": ""
+        },
+        "email": {
+          "label": "メールアドレス",
+          "placeholder": "例) example@example.com",
+          "instruction": "正しい内容を入力してください。\n半角英数字、特殊記号-@_+が使用可能です。"
+        },
+        "phone": {
+          "label": "電話番号",
+          "placeholder": "000-0000-0000"
+        }
+      },
+      "membershipPurpose": {
+        "title": "会員プラン",
+        "membershipPlan": "会員プラン",
+        "membershipPlanSp": "会員プラン",
+        "instruction": "入会目的",
+        "placeholderSp": "コネクションを増やしたいなど",
+        "placeholder": "例)経営者とのコネクションを増やしたい　など",
+        "required": "会員プランを選択してください"
+      },
+      "educationWorkHistory": {
+        "title": "学歴",
+        "elementarySchool": {
+          "label": "小学校",
+          "placeholder": "例)○○県立○○小学校",
+          "graduationDate": "卒業年月"
+        },
+        "juniorHighSchool": {
+          "label": "中学校",
+          "placeholder": "例)○○県立○○中学校",
+          "graduationDate": "卒業年月"
+        },
+        "highSchool": {
+          "label": "高校",
+          "placeholder": "例)○○県立○○高校",
+          "graduationDate": "卒業年月",
+          "none": "なし"
+        },
+        "university": {
+          "label": "大学または専門学校",
+          "placeholder": "例)○○大学",
+          "graduationDate": "卒業年月",
+          "none": "なし"
+        },
+        "currentWorkplace": {
+          "label": "現在の勤務先",
+          "postalCode": "郵便番号",
+          "postalCodeInvalid": "郵便番号が正しくありません。",
+          "address": {
+            "label": "住所",
+            "placeholder": "例)神奈川県横浜市南区11-11 横浜ビル3F 101"
+          }
+        },
+        "position": {
+          "label": "役職",
+          "placeholder": "例)代表取締役"
+        }
+      },
+      "workHistory": {
+        "title": "職歴",
+        "instruction": "新しいものから順にご入力ください。役職が変わった場合も別でご入力ください。",
+        "required": "職歴は最低1件入力してください。",
+        "addWorkHistory": "職歴を追加する+",
+        "addWorkHistoryMobile": "職歴を追加+",
+        "itemTitle": "職歴",
+        "delete": "削除",
+        "period": {
+          "label": "期間",
+          "yearJoined": "入社年",
+          "monthJoined": "入社月",
+          "yearLefted": {
+            "label": "退社年",
+            "placeholder": "年"
+          },
+          "monthLefted": {
+            "label": "退社月",
+            "placeholder": "月"
+          },
+          "placeholder": "例)2020年4月~2024年3月",
+          "inService": "在籍中",
+          "year": "年",
+          "month": "月"
+        },
+        "companyName": {
+          "label": "会社名",
+          "placeholder": "例)株式会社○○"
+        },
+        "position": {
+          "label": "役職",
+          "placeholder": "例)代表取締役"
+        }
+      },
+      "profileInformation": {
+        "title": "プロフィール情報",
+        "hobbies": {
+          "label": "趣味・特技(3つ)",
+          "labelSp": "趣味・特技",
+          "label1": "趣味・特技",
+          "label2": "趣味・特技",
+          "label3": "趣味・特技",
+          "placeholder": ""
+        },
+        "allergies": {
+          "label": "アレルギーや持病",
+          "yes": "あり",
+          "no": "なし",
+          "content": "内容",
+          "contentPlaceholder": "例）甲殻類アレルギーなど",
+          "contentPlaceholderSp": "週3箱など"
+        },
+        "smoking": {
+          "label": "喫煙",
+          "yes": "する",
+          "no": "しない",
+          "frequency": "頻度",
+          "frequencyPlaceholder": "例）週３箱など",
+          "frequencyPlaceholderSp": "日5本など"
+        },
+        "drinking": {
+          "label": "飲酒",
+          "yes": "する",
+          "no": "しない",
+          "frequency": "頻度",
+          "frequencyPlaceholder": "例）週３など",
+          "frequencyPlaceholderSp": "週3回など"
+        }
+      },
+      "submit": "登録申請を送る"
+    },
+    "messages": {
+      "updateSuccess": "情報の更新に成功しました。",
+      "noChanges": "変更がありません。"
+    },
+    "button": {
+      "saveChanges": "変更を保存",
+      "planChangeApplication": "プラン変更申請",
+      "logout": "ログアウト",
+      "cancelYourMembership": "退会する",
+      "canceledMembership": "退会手続き済み",
+      "no": "いいえ",
+      "yes": "はい",
+      "change": "変更",
+      "planChangeApplicationTooltip": "すでに最上位プランをご利用中です。"
+    },
+    "modal": {
+      "cancelYourMembership": {
+        "description": "退会手続きに進みます\n本当によろしいですか？"
+      }
+    },
+    "emailChange": {
+      "editEmail": {
+        "title": "メールアドレス変更",
+        "newEmail": {
+          "label": "新しいメールアドレス",
+          "placeholder": "example@example.com"
+        },
+        "sendOtp": "ワンタイムパスワードを送信",
+        "sending": "送信中",
+        "cancel": "キャンセル"
+      },
+      "verifyOtp": {
+        "title": "ワンタイムパスワード入力",
+        "description": "ご入力いただいたメールアドレスに送信されたワンタイムパスワードを入力してください",
+        "otpLabel": "ワンタイムパスワード",
+        "placeholder": "000000",
+        "sentTo": "送信先メールアドレス：{email}",
+        "submit": "送信",
+        "cancel": "キャンセル",
+        "useAnotherEmail": "別のメールアドレスを使用する",
+        "requiredOtp": "パスワードが違います",
+        "resendOtp": "再送する",
+        "resendOtpTimeAfter": "秒後に再送できます"
+      },
+      "success": {
+        "title": "メールアドレス変更",
+        "message": "メールアドレス変更が完了しました"
+      }
+    }
+  },
+  "cancellationPage": {
+    "title": "退会理由",
+    "form": {
+      "required": "必須",
+      "question1": {
+        "label": "ご退会理由をお聞かせください\n（複数選択可）",
+        "detailLabel": "詳細",
+        "reasons": {
+          "infrequently": "利用頻度が少なかった",
+          "little_demand": "利用ニーズが低かった",
+          "different_expected": "会員特典・サービス内容が期待と異なった",
+          "not_cost_effective": "費用対効果が低いと感じた",
+          "budgetary": "予算の都合",
+          "not_easy_to_use": "サービスの使い勝手がよくなかった",
+          "other": "その他"
+        }
+      },
+      "question2": {
+        "title": "今後、どのようなサービスや特典があると継続したいと感じますか？",
+        "label": "回答"
+      },
+      "question3": {
+        "title": "利用期間中、良かった点や改善してほしい点があればお聞かせください",
+        "label": "回答"
+      },
+      "detailPlaceholder": "詳しくお聞かせください",
+      "notes": "※退会手続き後も、次回更新日までは会員サービスをご利用いただけます。\n次回更新日：{nextDueOn}\n※退会完了後、お持ちのご優待券のご使用はいたしかねます。\n\nご不明な点がある場合は下記までご連絡ください\nクラブ運営責任者：大久保公一郎\nTEL：080-5918-6753\nEmail：nk-executive-member’s-club@noriken.info",
+      "submitButton": "退会を申請する",
+      "cancelButton": "キャンセル",
+      "cancelSuccess": "退会手続きが\n完了しました"
+    }
+  },
+  "emailChange": {
+    "editEmail": {
+      "title": "メールアドレス変更",
+      "newEmail": {
+        "label": "新しいメールアドレス",
+        "placeholder": "example@example.com"
+      },
+      "sendOtp": "ワンタイムパスワードを送信",
+      "cancel": "キャンセル"
+    },
+    "verifyOtp": {
+      "title": "ワンタイムパスワード入力",
+      "description": "ご入力いただいたメールアドレスに送信されたワンタイムパスワードを入力してください",
+      "otpLabel": "ワンタイムパスワード",
+      "placeholder": "000000",
+      "sentTo": "送信先メールアドレス：{email}",
+      "submit": "認証する",
+      "cancel": "キャンセル",
+      "useAnotherEmail": "別のメールアドレスを使用する"
+    },
+    "success": {
+      "title": "メールアドレス変更",
+      "message": "メールアドレスの変更が完了しました"
+    }
+  },
+
+  "payment": {
+    "meta": {
+      "title": "NK Consulting",
+      "description": "NK Consulting"
+    },
+    "title": "<highlight>年</highlight>会費決済方法選択",
+    "titleSp": "クレジットカード",
+    "creditCard": "クレジットカード",
+    "bankTransfer": "銀行振込",
+    "creditCardDescription": "審査後、承認された場合にのみ支払いが発生いたします。",
+    "bankTransferDescription": "銀行振込でのお支払いを選択した場合、審査後のお振込みとなります。審査を通過後、登録されたメールアドレス宛に振込先情報を記載したメールを送信いたします。\n※振込手数料はお客様でご負担をお願いいたします\n※支払期限：メール通知から2週間以内",
+    "form": {
+      "label": {
+        "name": "カード名義人",
+        "creditCardNumber": "カード番号",
+        "expirationDate": "有効期限",
+        "cvv": "セキュリティコード（カード裏面の３桁の番号）",
+        "cvvSp": "セキュリティコード\n（カード裏面の３桁の番号）"
+      },
+      "placeholder": {
+        "name": "例) NK CONSULTING",
+        "creditCardNumber": "0000 0000 0000 0000",
+        "expirationDate": "MM/YY",
+        "cvv": "CVC"
+      }
+    },
+    "submit": "入力内容の確認",
+    "register": "新規会員登録申請を送る",
+    "error": "支払いシステムの読み込みに失敗しました。\nページを更新してください。",
+    "errorButton": "更新",
+    "accountNotFoundError": "アカウント情報が見つかりません。",
+    "button": {
+      "loginAndRegister": "ログイン/会員登録",
+      "useExistingCard": "現在のカードを使用"
+    }
+  },
+  "paymentConfirm": {
+    "title": "<highlight>ご</highlight>入力内容確認",
+    "titleSp": "クレジットカード",
+    "usageAmount": "ご利用金額",
+    "name": "カード名義人",
+    "creditCardNumber": "カード番号",
+    "expirationDate": "有効期限",
+    "cvv": "セキュリティコード",
+    "submit": "新規会員登録申請を送る",
+    "back": "登録カードの変更",
+    "usageAmountWithPlanType": {
+      "keieisha": "¥132,000(税込)",
+      "tokubetsu_kojin": "¥66,000(税込)",
+      "houjin": "¥33,000(税込)"
+    },
+    "descriptionSp": "審査後、承認された場合にのみ支払いが発生いたします。"
+  },
+  "upgradePlan": {
+    "title": "プラン変更申請",
+    "membershipInformation": "会員情報",
+    "planChange": "プラン変更",
+    "additionalFeePaymentConfirmation": "追加料金決済内容確認",
+    "paymentConfirmation": "決済内容確認",
+    "form": {
+      "label": {
+        "cvvSp": "セキュリティコード"
+      }
+    },
+    "currentPlan": "現在のプラン",
+    "changeablePlan": "変更可能なプラン",
+    "planBenefits": "全コンサルサービス\nラウンジのご入店権\n異業種交流会への参加\n各種会員限定特典",
+    "billingAmountLabel": "プラン変更に伴うご請求金額",
+    "feeDescription": "当プラン変更費は、年会費の差額を、残りの日数で割って算出された額を請求いたします。\n新しいプランは決済完了後すぐにご利用いただけます。\n決済完了と同時に、ご登録のメールアドレスに新しい会員Noが記載されたメールを送信させていただきます。",
+    "paymentMethod": {
+      "title": "お支払い方法",
+      "useExistingCard": "現在のカードを使用",
+      "addNewCard": "新しいカードを追加",
+      "cardInfo": "カード情報",
+      "cardBrand": "カード名義人",
+      "cardNumber": "カード番号",
+      "expirationDate": "有効期限",
+      "usageAmount": "ご利用金額",
+      "billingAmount": "{fee}円",
+      "securityCode": "セキュリティコード",
+      "securityCodePlaceholder": "***",
+      "processPayment": "決済する",
+      "changeRegisteredCard": "登録カードの変更",
+      "pay": "支払う",
+      "modify": "登録カードの変更",
+      "form": {
+        "label": {
+          "name": "カード名義人",
+          "creditCardNumber": "カード番号",
+          "expirationDate": "有効期限",
+          "cvv": "セキュリティコード（カード裏面の３桁の番号）",
+          "cvvSp": "セキュリティコード\n（カード裏面の３桁の番号）"
+        },
+        "placeholder": {
+          "name": "例) NK CONSULTING",
+          "creditCardNumber": "0000 0000 0000 0000",
+          "expirationDate": "MM/YY",
+          "cvv": "CVC"
+        }
+      },
+      "submit": "内容の確認へ進む",
+      "register": "新規会員登録申請を送る",
+      "error": "支払いシステムの読み込みに失敗しました。\nページを更新してください。",
+      "errorButton": "更新",
+      "accountNotFoundError": "アカウント情報が見つかりません。",
+      "button": {
+        "loginAndRegister": "ログイン/会員登録",
+        "useExistingCard": "現在のカードを使用"
+      }
+    },
+
+    "confirmPayment": {
+      "title": "お支払い内容確認",
+      "description": "「支払う」ボタンを押すことで、利用規約・プライバシーポリシー・返金ポリシーに同意したものとみなされます。\n本会費のお支払いには、Stripe, Inc. が提供する安全な決済システムを利用しています。\nクレジットカード情報は当社サーバーを経由せず、Stripe により安全に処理されます。\n本会員制度は自動更新制です。有効期間満了日の前日までに所定の解約手続きを行わない場合、同一条件にて自動的に更新されます。\n年会費のお支払い完了後は、理由の如何を問わず、原則として返金・キャンセルはお受けできません。\n本決済はプラン変更に伴う年会費の差額分の請求です。\n決済完了後、登録メールアドレス宛に領収書（Stripe発行）が送信されます。",
+      "usageAmount": "ご利用金額",
+      "name": "カード名義人",
+      "creditCardNumber": "カード番号",
+      "expirationDate": "有効期限"
+    }
+  },
+  "upgradePlanComplete": {
+    "title": "決済完了",
+    "sectionHeader": "プランの変更が完了しました",
+    "description": "プラン変更及び差額分の決済が完了いたしました。\n変更後のプランに対する特典やサービスは本日よりご利用いただけます。",
+    "paymentDescription": "■ お支払いについて\n差額分の決済は正常に完了しております。\n領収書はご登録のメールアドレスに送信させていただきました。",
+    "usageDescription": "■ ご利用について\n特典・サービスはすでに反映されています。\nマイページへ再ログインすることなく、そのままご利用いただけます。",
+    "changes": "■ 変更内容\n・変更後プラン：{planName}\n・利用開始日：{startDate}\n・次回更新日：{nextDueOn}",
+    "backToMembershipInfo": "会員情報に戻る"
+  },
+  "legalNotice": {
+    "title": "特定商取引法に基づく表記",
+    "description": "特定商取引法に基づく表記",
+    "businessName": {
+      "label": "事業者名",
+      "value": "株式会社 NK CONSULTING"
+    },
+    "representative": {
+      "label": "代表者",
+      "value": "則武　和宏"
+    },
+    "address": {
+      "label": "所在地",
+      "value": "〒232-0056\n神奈川県横浜市南区通町3丁目61-1"
+    },
+    "contact": {
+      "label": "お問い合わせ",
+      "value": "Email：nk-executive-member’s-club@noriken.info\nTEL：080-5918-6753"
+    },
+    "manager": {
+      "label": "運営責任者",
+      "value": "大久保　公一郎"
+    },
+    "serviceFee": {
+      "label": "サービス利用料金",
+      "value": "ご利用料金は、当社ウェブサイト上に表示されます。 "
+    },
+    "additionalFee": {
+      "label": "サービス利用料金以外の\n必要料金・追加手数料",
+      "labelSp": "サービス利用料金以外の必要料金・追加手数料",
+      "value": "銀行振り込みの場合は、振込手数料をご負担いただきます。"
+    },
+    "refundPolicy": {
+      "label": "返金ポリシー",
+      "value": "納入された年会費はいかなる理由があっても返金いたしかねます。 "
+    },
+    "cancellationPolicy": {
+      "label": "解約について",
+      "value": "契約者はいつでも本会員クラブの退会手続きを行えます。正式な退会は退会手続きを行った時点での次回更新日となります。\nなお、契約期間の途中で解約した場合でも、残存する月日数に相当する料金の返金はできません。 "
+    },
+    "disclosureOfInformation": {
+      "label": "利用可能な決済手段",
+      "value": "クレジットカードまたは国内の銀行振込 "
+    },
+    "paymentPeriod": {
+      "label": "決済期間",
+      "value": "クレジットカード決済はただちに処理されますが、国内の銀行振り込みは振込先の通知後2週間以内に送金する必要があります。 "
+    },
+    "version": "第1版 2025年12月17日 制定"
+  }
+}

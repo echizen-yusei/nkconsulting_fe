@@ -1,0 +1,67 @@
+/* Color Utility Classes */
+.bg-black-custom {
+    background-color: var(--color-black);
+}
+
+.bg-gray-dark {
+    background-color: var(--color-gray-dark);
+}
+
+.bg-gray-medium {
+    background-color: var(--color-gray-medium);
+}
+
+.bg-gray-light {
+    background-color: var(--color-gray-light);
+}
+
+.bg-gray-lighter {
+    background-color: var(--color-gray-lighter);
+}
+
+.bg-red-primary {
+    background-color: var(--color-red-primary);
+}
+
+.bg-red-secondary {
+    background-color: var(--color-red-secondary);
+}
+
+.bg-red-light {
+    background-color: var(--color-red-light);
+}
+
+.bg-red-lighter {
+    background-color: var(--color-red-lighter);
+}
+
+.bg-red-lightest {
+    background-color: var(--color-red-lightest);
+}
+
+.bg-cream {
+    background-color: var(--color-cream);
+}
+
+.bg-gold {
+    background: var(--color-gold);
+}
+
+.bg-gradient-dark-27 {
+    background: linear-gradient(135deg, #262626 0%, #333333 100%);
+    opacity: 0.77;
+}
+
+.bg-gradient-dark-90 {
+    background: linear-gradient(135deg, #262626 0%, #333333 100%);
+    opacity: 0.9;
+}
+
+.bg-gradient-dark-100 {
+    background: linear-gradient(135deg, #262626 0%, #333333 100%);
+    opacity: 1;
+}
+
+.bg-gradient-custom {
+    background: linear-gradient(#262626 0%, #1A1A1A 100%);
+}
