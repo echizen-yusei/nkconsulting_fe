@@ -5,6 +5,8 @@ import useScreen from "@/hooks/useScreen";
 import Image from "next/image";
 import bottomBannerFull from "../../../../../public/assets/images/bottom-banner-full.png";
 import bottomBanner from "../../../../../public/assets/images/bottom-banner.png";
+import Button from "@/components/atoms/Button/Button";
+import Link from "next/link";
 
 const VisitWebsite = () => {
   const t = useTranslations("HomePage");
@@ -25,9 +27,11 @@ const VisitWebsite = () => {
               })}
             </h2>
             <p className="text-1 text-cream mt-12 text-left whitespace-pre-line">{t("visitWebsite.descriptionSp")}</p>
-            {/* <Button buttonType="secondary" className="heading-5 mt-12 w-full" style={{ letterSpacing: "-0.6px", height: "56px", padding: "0" }}>
+            <Button buttonType="secondary" className="heading-5 mt-12 w-full" style={{ letterSpacing: "-0.6px", height: "56px", padding: "0" }}>
+              <Link href="https://azure-forest-yokohama.jp" target="_blank">
               {t("visitWebsite.button")}
-            </Button> */}
+              </Link>
+            </Button>
             {/* TODO: Add button when it is implemented */}
           </div>
         </div>
@@ -50,9 +54,11 @@ const VisitWebsite = () => {
             </h2>
             <p className="text-1 text-cream mt-10 text-left">{t("visitWebsite.description")}</p>
           </div>
-          {/* <Button buttonType="secondary" className="heading-5" style={{ letterSpacing: "-0.6px" }}>
+          <Button buttonType="secondary" className="heading-5" style={{ letterSpacing: "-0.6px" }}>
+            <Link href="https://azure-forest-yokohama.jp" target="_blank">
             {t("visitWebsite.button")}
-          </Button> */}
+            </Link>
+          </Button>
           {/* TODO: Add button when it is implemented */}
         </div>
       </div>
